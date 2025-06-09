@@ -1,0 +1,29 @@
+{
+  "name": "certwatch-js",
+  "version": "0.1.2",
+  "description": "SSL/TLS Certificate Expiry & Rotation Monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ssl",
+    "tls",
+    "certificate",
+    "monitor",
+    "expiry",
+    "pki",
+    "devops",
+    "https",
+    "certwatch"
+  ],
+  "author": "Raghava Chellu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaghavaCh440/certwatch-js"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
