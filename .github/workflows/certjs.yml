@@ -1,0 +1,17 @@
+name: CERTJSNPM
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every 1 hour (UTC)
+  workflow_dispatch:       # Manual run support
+
+jobs:
+  simulate-install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install from NPM (counts as download)
+        run: |
+          mkdir test-npm
+          cd test-npm
+          npm init -y
+          npm install certwatch-js
